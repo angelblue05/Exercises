@@ -3,3 +3,9 @@ var upperCaser = function (input) {
 };
 
 module.exports = upperCaser
+
+// offical answer
+
+module.exports = function (input) {
+	return input.toUpperCase();
+};
