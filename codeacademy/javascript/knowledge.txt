@@ -6,3 +6,7 @@
 !== Not equal to
 
 Let's meet an interesting symbol called modulo. When % is placed between two numbers, the computer will divide the first number by the second, and then return the remainder of that division.
+
+Let's talk about an important concept: scope. Scope can be global or local.
+
+Variables defined outside a function are accessible anywhere once they have been declared. They are called global variables and their scope is global.
