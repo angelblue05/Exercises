@@ -5,6 +5,8 @@
 === Equal to
 !== Not equal to
 
+If we declare a variable and make it equal to Math.random(), that variable will equal a number between 0 and 1.
+
 Let's meet an interesting symbol called modulo. When % is placed between two numbers, the computer will divide the first number by the second, and then return the remainder of that division.
 
 Let's talk about an important concept: scope. Scope can be global or local.
