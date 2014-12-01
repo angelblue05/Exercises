@@ -3,7 +3,7 @@ var computerChoice = Math.random()
 
 console.log(computerChoice)
 
-if (computerChoice <= 0.33)   {
+if (computerChoice < 0.34)   {
     computerChoice = "rock"
 }
 else if (computerChoice > 0.34 && computerChoice <= 0.66)   {
