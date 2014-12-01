@@ -5,6 +5,7 @@ var orangeCost = function (cost) {
 
 orangeCost(5)
 
+//another function
 
 var nameString = function (name) {
 	return "Hi, I am" + " " + name;	
