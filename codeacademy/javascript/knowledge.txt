@@ -6,7 +6,9 @@
 !== Not equal to
 && and
 ++ increment up by 1
-
++= increment up by x (i += x)
+-- decrement by 1
+-= decrement by x (i -= x)
 
 If we declare a variable and make it equal to Math.random(), that variable will equal a number between 0 and 1.
 
