@@ -4,6 +4,7 @@
 >= Greater than or equal to
 === Equal to
 !== Not equal to
+&& and
 
 If we declare a variable and make it equal to Math.random(), that variable will equal a number between 0 and 1.
 
