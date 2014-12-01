@@ -5,6 +5,8 @@
 === Equal to
 !== Not equal to
 && and
+++ increment up by 1
+
 
 If we declare a variable and make it equal to Math.random(), that variable will equal a number between 0 and 1.
 
