@@ -3,7 +3,7 @@
 var text = "Hey, how are you \
 doing? My name is Tamara. I'm sorry \
 you haven't head what I said. My name \
-is Tamara.";
+is Tabby";
 
 var myName = "Tamara"
 var hits = []
@@ -13,8 +13,11 @@ for (var i = 0; i < text.length; i++) {
         
         var characterSave = "";
         for (var j = i; j < myName.length + i; j++) {
-            characterSave = text[j];
-            hits.push(characterSave);  
+            characterSave += text[j];
+            
+        }
+        if (characterSave === myName)   {
+        hits.push(characterSave);
         }
     }
 }
