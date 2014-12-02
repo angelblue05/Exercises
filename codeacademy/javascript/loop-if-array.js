@@ -6,7 +6,7 @@ is Tamara.";
 var myName = "Tamara"
 var hits = []
 
-for (i = 0; i < text.length; i++) {
+for (var i = 0; i < text.length; i++) {
     if (myName[0] === text[i]) {
         
     }
