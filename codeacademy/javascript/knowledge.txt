@@ -9,7 +9,7 @@
 += increment up by x (i += x)
 -- decrement by 1
 -= decrement by x (i -= x)
-
+|| or
 
 While loop
 while(condition){
