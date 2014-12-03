@@ -18,6 +18,8 @@ while(condition){
 
 JavaScript understands 1 to mean true and 0 to mean false.
 
+switch allows you to preset a number of options (called cases), then check an expression to see if it matches any of them. If there's a match, the program will perform the action for the matching case; if there's no match, it can execute a default option.
+
 If we declare a variable and make it equal to Math.random(), that variable will equal a number between 0 and 1.
 
 Let's meet an interesting symbol called modulo. When % is placed between two numbers, the computer will divide the first number by the second, and then return the remainder of that division.
