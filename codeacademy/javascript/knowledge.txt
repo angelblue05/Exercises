@@ -10,6 +10,7 @@
 -- decrement by 1
 -= decrement by x (i -= x)
 || or
+typeof = console.log(typeof anObj); // should print "object"
 
 While loop
 while(condition){
