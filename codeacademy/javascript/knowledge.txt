@@ -53,3 +53,16 @@ In addition to the basic Object constructor, we can define our own custom constr
 
 We can assign our objects properties through parameters we pass in when the object is created.
 We can give our objects methods automatically.
+
+And finally, let's go over retrieving property values. Throughout this section, we've been using dot notation to get the value of an object's property:
+
+someObj.propName;
+However, remember that we can also use bracket notation:
+
+someObj["propName"];
+An advantage of bracket notation is that we are not restricted to just using strings in the brackets. We can also use variables whose values are property names:
+
+var someObj = {propName: someValue};
+var myProperty = "propName";
+someObj[myProperty];
+The last line is exactly the same as using someObj["propName"];.
