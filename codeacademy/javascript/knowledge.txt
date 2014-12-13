@@ -11,6 +11,7 @@
 -= decrement by x (i -= x)
 || or
 typeof = console.log(typeof anObj); // should print "object"
+prototype = example dog.prototype.bark will teach all dogs added to bark
 
 While loop
 while(condition){
