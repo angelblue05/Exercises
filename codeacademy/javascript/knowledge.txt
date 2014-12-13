@@ -12,6 +12,7 @@
 || or
 typeof = console.log(typeof anObj); // should print "object"
 prototype = example dog.prototype.bark will teach all dogs added to bark
+hasOwnProperty = will return properties found directly in the object (sort of like a filter) instead of using for in loop which will return everything linked to that same object.
 
 While loop
 while(condition){
