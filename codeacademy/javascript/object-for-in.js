@@ -22,3 +22,19 @@ var nyc = {
 for(var items in nyc) {
     console.log(items);   
 }
+
+// another example
+
+var languages = {
+    english: "Hello!",
+    french: "Bonjour!",
+    notALanguage: 4,
+    spanish: "Hola!"
+};
+
+// print hello in the 3 different languages
+for (var hello in languages) {
+    if (typeof languages[hello] === "string") {
+    console.log(languages[hello]); 
+    };
+};
