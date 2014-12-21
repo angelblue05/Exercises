@@ -1,0 +1,11 @@
+Inside the empty $(), you'll want to enter the name of the HTML element you want to fade away when clicked. For instance, if it were a paragraph, we'd type
+
+$('p').fadeOut(1000);
+In this case, though, we want to make our div disappear.
+
+You can think of the element name passed to jQuery as identical to the CSS element, only wrapped in quotes.
+
+Just like we need a <link> tag to connect our HTML and CSS, we need a <script> tag to connect our HTML and jQuery. The tag looks like this:
+
+<script type="text/javascript" src="script.js"></script>
+Note that the <script> tag is not self-closing; it requires a closing </script> tag.
