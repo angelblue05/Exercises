@@ -9,3 +9,8 @@ Just like we need a <link> tag to connect our HTML and CSS, we need a <script> t
 
 <script type="text/javascript" src="script.js"></script>
 Note that the <script> tag is not self-closing; it requires a closing </script> tag.
+
+We can apply a fadeTo() to both the p and li selectors like this:
+
+$('p, li').fadeTo('slow', 0);
+This is called a compound selector.
