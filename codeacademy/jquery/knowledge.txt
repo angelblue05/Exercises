@@ -16,3 +16,6 @@ $('p, li').fadeTo('slow', 0);
 This is called a compound selector.
 
 If you use single quotes for your string, you'll need to escape the apostrophe in "I'm a paragraph!" by putting a \ before it (like so: 'I\'m a paragraph!'). This lets jQuery know not to end the string when it hits the apostrophe.
+
+.html() can be used to set the contents of the first element match it finds.
+.val() is used to get the value of form elements.
