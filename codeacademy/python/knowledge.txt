@@ -6,3 +6,5 @@ multiplication = 108 * 0.5
 division = 108 / 9
 exponents = 2 ** 3 would equal 8, 2 to the power to 3 (2^3)
 modulo: returns the remainder from a division example: 5 % 2 would return 1
+
+There is no difference between using single quotes ' and double quotes "
