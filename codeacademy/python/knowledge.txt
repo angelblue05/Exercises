@@ -8,3 +8,6 @@ exponents = 2 ** 3 would equal 8, 2 to the power to 3 (2^3)
 modulo: returns the remainder from a division example: 5 % 2 would return 1
 
 There is no difference between using single quotes ' and double quotes "
+In Python, we start counting the index from zero instead of one.
+
+Escaping a character: You can use the backslash \ to prevent code break. 'There\'s a backslash'
