@@ -1,1 +1,8 @@
 Indentation: To denote a parent element from a child element, you need to add 4 whitespaces infront of the child element.
+Comments: # for a single line, """ multi-lines """
+addition = 72 + 23
+subtraction = 108 - 204
+multiplication = 108 * 0.5
+division = 108 / 9
+exponents = 2 ** 3 would equal 8, 2 to the power to 3 (2^3)
+modulo: returns the remainder from a division example: 5 % 2 would return 1
