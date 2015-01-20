@@ -6,6 +6,7 @@ len(parrot)
 # get rid of caps
 parrot.lower()
 
-upper()
+# all caps
+parrot.upper()
 
 str()
