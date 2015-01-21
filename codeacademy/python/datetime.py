@@ -1,0 +1,28 @@
+from datetime import datetime
+
+now = datetime.now()
+
+print now.year
+print now.month
+print now.day
+
+# another example
+
+from datetime import datetime
+now = datetime.now()
+
+print '%s/%s/%s' % (now.month, now.day, now.year)
+
+# another example
+
+from datetime import datetime
+now = datetime.now()
+
+print '%s:%s:%s' % (now.hour, now.minute, now.second)
+
+# another example
+
+from datetime import datetime
+now = datetime.now()
+
+print '%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
