@@ -6,6 +6,37 @@ multiplication = 108 * 0.5
 division = 108 / 9
 exponents = 2 ** 3 would equal 8, 2 to the power to 3 (2^3)
 modulo: returns the remainder from a division example: 5 % 2 would return 1
+comparators:
+  Equal to (==)
+  Not equal to (!=)
+  Less than (<)
+  Less than or equal to (<=)
+  Greater than (>)
+  Greater than or equal to (>=)
+  
+  
+     Boolean Operators
+------------------------      
+True and True is True
+True and False is False
+False and True is False
+False and False is False
+
+True or True is True
+True or False is True
+False or True is True
+False or False is False
+
+Not True is False
+Not False is True
+
+The order, when not using () to define a unit
+-------------------------
+not is evaluated first;
+and is evaluated next;
+or is evaluated last.
+
+
 
 There is no difference between using single quotes ' and double quotes "
 In Python, we start counting the index from zero instead of one.
