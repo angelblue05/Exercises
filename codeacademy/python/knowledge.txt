@@ -11,3 +11,4 @@ There is no difference between using single quotes ' and double quotes "
 In Python, we start counting the index from zero instead of one.
 
 Escaping a character: You can use the backslash \ to prevent code break. 'There\'s a backslash'
+To import libraries, add at the top of the file: from datetime import datetime
