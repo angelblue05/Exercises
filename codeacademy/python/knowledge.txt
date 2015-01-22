@@ -36,7 +36,8 @@ not is evaluated first;
 and is evaluated next;
 or is evaluated last.
 
-
+%s for strings
+%f for floats (numbers with decimals)
 
 There is no difference between using single quotes ' and double quotes "
 In Python, we start counting the index from zero instead of one.
