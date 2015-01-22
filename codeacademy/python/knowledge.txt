@@ -14,7 +14,16 @@ comparators:
   Greater than (>)
   Greater than or equal to (>=)
 
-module: to import a module, just add at the beginning of the document import math and to use it later, math.sqrt()
+
+module: to simply import a module. Requires to call the module before the function like module.function()
+import module
+
+function module: import only a specific function from a module
+from module import function
+
+universal imports: to import without having to type out the name of the module infront of the function 
+from module import * 
+  
   
      Boolean Operators
 ------------------------      
