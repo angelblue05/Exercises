@@ -13,7 +13,8 @@ comparators:
   Less than or equal to (<=)
   Greater than (>)
   Greater than or equal to (>=)
-  
+
+module: to import a module, just add at the beginning of the document import math and to use it later, math.sqrt()
   
      Boolean Operators
 ------------------------      
