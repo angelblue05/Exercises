@@ -20,3 +20,6 @@ duck_index =  animals.index("duck")  # Use index() to find "duck"
 animals.insert(duck_index, "cobra") 
 
 print animals # Observe what prints after the insert operation
+
+# remove an item from a list
+list.remove(item)
