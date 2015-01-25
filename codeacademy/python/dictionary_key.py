@@ -9,3 +9,6 @@ print residents['Burmese Python']
 
 # modify a dictionary
 dict_name[new_key] = new_value
+
+# delete a key from a dictionary
+del dict_name[key_name]
