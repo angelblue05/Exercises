@@ -66,3 +66,14 @@ def print_list(x):
         print x[i]
 
 print_list(n)
+
+# another example - strings in list
+n = ["Michael", "Lieberman"]
+# Add your function here
+def join_strings(words):
+    result = ""
+    for item in words:
+        result += item
+    
+    return result
+print join_strings(n)
