@@ -90,3 +90,23 @@ word = "eggs!"
 # Your code here!
 for ltr in word:
     print ltr
+
+# another example - loop with trailing comma
+phrase = "A bird in the hand..."
+
+# Add your for loop
+for char in phrase:
+    if char == 'A' or char == 'a':
+        print 'X', # comma puts elements one after the each other instead of lines
+    else:
+        print char,
+
+#Don't delete this print statement!
+print
+
+# another example - looping thru a dictionary
+d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+for key in d:
+    # Your code here!
+    print key + " " + d[key]
