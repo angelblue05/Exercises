@@ -83,3 +83,10 @@ print "Counting..."
 
 for i in range(20):
     print i
+
+# another example - per string, same principle
+word = "eggs!"
+
+# Your code here!
+for ltr in word:
+    print ltr
