@@ -77,3 +77,9 @@ def join_strings(words):
     
     return result
 print join_strings(n)
+
+# another example - similar to while loop
+print "Counting..."
+
+for i in range(20):
+    print i
