@@ -93,8 +93,20 @@ class Triangle(object):
         self.angle1 = angle1
         self.angle2 = angle2
         self.angle3 = angle3
-    def check_angle(self):
+    
+    def Check_angles(self):
         if self.angle1 + self.angle2 + self.angle3 == 180:
             return True
         else:
             return False
+            
+class Equilateral(Triangle):
+    angle = 60
+    def __init__(self):
+        self.angle1 = self.angle
+        self.angle2 = self.angle
+        self.angle3 = self.angle
+
+my_triangle = Triangle(90, 30, 60)
+print my_triangle.number_of_sides
+print my_triangle.Check_angles()
