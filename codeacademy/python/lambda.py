@@ -17,3 +17,8 @@ print filter(lambda x: x is "Python", languages)
 # another example
 squares = [x * x for x in range(1, 11)]
 print filter(lambda x: x in range(30, 71), squares)
+
+# another example
+garbled = "IXXX aXXmX aXXXnXoXXXXXtXhXeXXXXrX sXXXXeXcXXXrXeXt mXXeXsXXXsXaXXXXXXgXeX!XX"
+
+message = filter(lambda x: x is not "X", garbled)
