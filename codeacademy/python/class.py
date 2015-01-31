@@ -95,6 +95,6 @@ class Triangle(object):
         self.angle3 = angle3
     def check_angle(self):
         if self.angle1 + self.angle2 + self.angle3 == 180:
-            return False
-        else:
             return True
+        else:
+            return False
