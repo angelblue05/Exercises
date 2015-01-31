@@ -85,3 +85,16 @@ class ShoppingCart(object):
 
 my_cart = ShoppingCart("tamara")
 my_cart.add_item("Panda", 9.99)
+
+# another example
+class Triangle(object):
+    number_of_sides = 3
+    def __init__(self, angle1, angle2, angle3):
+        self.angle1 = angle1
+        self.angle2 = angle2
+        self.angle3 = angle3
+    def check_angle(self):
+        if self.angle1 + self.angle2 + self.angle3 == 180:
+            return False
+        else:
+            return True
