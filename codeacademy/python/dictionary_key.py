@@ -42,3 +42,12 @@ inventory['pocket'] = ['seashell', 'strange berry', 'lint']
 inventory['backpack'].sort()
 inventory['backpack'].remove('dagger')
 inventory['gold'] += 50
+
+# another example - using .items()
+my_dict = {
+    "Name": "Tamara",
+    "Age": 26,
+    "Married": True
+}
+
+print my_dict.items()
