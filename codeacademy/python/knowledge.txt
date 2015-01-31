@@ -59,3 +59,10 @@ In Python, we start counting the index from zero instead of one.
 
 Escaping a character: You can use the backslash \ to prevent code break. 'There\'s a backslash'
 To import libraries, add at the top of the file: from datetime import datetime
+
+print 5 >> 4  # Right Shift
+print 5 << 1  # Left Shift
+print 8 & 5   # Bitwise AND
+print 9 | 4   # Bitwise OR
+print 12 ^ 42 # Bitwise XOR
+print ~88     # Bitwise NOT
