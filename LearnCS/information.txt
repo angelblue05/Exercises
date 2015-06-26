@@ -1,0 +1,10 @@
+int myInt = 1;
+float myFloat = 1f;
+bool myBoolean = true;
+string myName = "John";
+char myChar = 'a';
+
+Notice that defining a floating point number requires an explicit f letter after the number.
+
+Arrays:
+int[] nums = { 1, 2, 3, 4, 5 };
